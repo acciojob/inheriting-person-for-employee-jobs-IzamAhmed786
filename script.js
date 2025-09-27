@@ -32,3 +32,14 @@ Employee.prototype.jobGreet = function() {
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
+
+const p = new Person("Alice", 25);
+p.greet(); 
+// Hello, my name is Alice, I am 25 years old.
+
+const e = new Employee("Bob", 30, "Manager");
+e.jobGreet(); 
+// Hello, my name is Bob, I am 30 years old, and my job title is Manager.
+
+e.greet(); 
+// Hello, my name is Bob, I am 30 years old.
