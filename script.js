@@ -21,6 +21,15 @@ Employee.prototype.jobGreet = function() {
   );
 };
 
+const p = new Person("Alice", 25);
+p.greet();
+
+const e = new Employee("Bob", 30, "Manager");
+e.jobGreet();
+
+e.greet(); 
+
+
 // Do not change code below this line
 window.Person = Person;
 window.Employee = Employee;
